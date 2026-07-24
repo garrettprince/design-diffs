@@ -16,6 +16,6 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["server", "src/contracts/design-diff.ts"],
+  "include": ["server", "api", "src/contracts/design-diff.ts"],
   "exclude": ["server/**/*.test.ts"]
 }
