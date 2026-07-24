@@ -1,8 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import type { Request, Response } from "express";
-import vercelDesignDiffHandler from "../../../api/design-diffs";
-import { createDesignDiffHandler } from "./handler";
+import vercelDesignDiffHandler from "../../../api/design-diffs.js";
+import { createDesignDiffHandler } from "./handler.js";
 
 const target = {
   kind: "shape" as const,

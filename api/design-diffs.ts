@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { createDesignDiffHandler } from "../server/design-diff/api/handler";
+import { createDesignDiffHandler } from "../server/design-diff/api/handler.js";
 
 const designDiff = createDesignDiffHandler({
   forceMockProvider: process.env.DESIGN_DIFF_MOCK === "true",

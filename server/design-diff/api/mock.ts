@@ -5,7 +5,7 @@ import {
   serializeLayoutDesignDiffState,
   serializeShadowDesignDiffState,
   type ModelDesignDiff,
-} from "../../../src/contracts/design-diff";
+} from "../../../src/contracts/design-diff.js";
 
 type DesignDiffProperties = Record<string, string | number>;
 type ModelChange = ModelDesignDiff["changes"][number];

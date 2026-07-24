@@ -6,8 +6,8 @@ import {
   normalizeModelChanges,
   type DesignDiffRequestTarget,
   type ModelDesignDiff,
-} from '../../../src/contracts/design-diff'
-import { DESIGN_DIFF_MODEL, designDiffSystemPrompt } from '../constants/prompt'
+} from '../../../src/contracts/design-diff.js'
+import { DESIGN_DIFF_MODEL, designDiffSystemPrompt } from '../constants/prompt.js'
 
 export class DesignDiffRefusalError extends Error {}
 

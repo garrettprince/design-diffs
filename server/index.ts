@@ -1,8 +1,8 @@
 import express from "express";
 import { createServer as createViteServer } from "vite";
-import { serverConfig } from "./config";
-import { DESIGN_DIFF_MODEL } from "./design-diff/constants/prompt";
-import { createDesignDiffRoute } from "./design-diff/api/route";
+import { serverConfig } from "./config.js";
+import { createDesignDiffRoute } from "./design-diff/api/route.js";
+import { DESIGN_DIFF_MODEL } from "./design-diff/constants/prompt.js";
 
 const app = express();
 const designDiff = createDesignDiffRoute(serverConfig);

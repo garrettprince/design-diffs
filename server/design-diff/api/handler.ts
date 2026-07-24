@@ -1,9 +1,9 @@
-import { designDiffRequestSchema } from "../../../src/contracts/design-diff";
-import { createMockDesignDiff } from "./mock";
+import { designDiffRequestSchema } from "../../../src/contracts/design-diff.js";
+import { createMockDesignDiff } from "./mock.js";
 import {
   createOpenAiDesignDiffClient,
   DesignDiffRefusalError,
-} from "./openai";
+} from "./openai.js";
 
 export type DesignDiffHandlerConfig = {
   forceMockProvider: boolean;

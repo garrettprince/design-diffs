@@ -2,7 +2,7 @@ import { Router } from "express";
 import {
   createDesignDiffHandler,
   type DesignDiffHandlerConfig,
-} from "./handler";
+} from "./handler.js";
 
 export function createDesignDiffRoute(config: DesignDiffHandlerConfig) {
   const route = Router();

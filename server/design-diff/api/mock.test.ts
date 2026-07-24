@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { parseShadowDesignDiffState } from '../../../src/design-diff/model/design-diff-model'
-import { createMockDesignDiff } from './mock'
+import { parseShadowDesignDiffState } from '../../../src/design-diff/model/design-diff-model.js'
+import { createMockDesignDiff } from './mock.js'
 
 test('creates deterministic button changes within the five-change limit', () => {
   const result = createMockDesignDiff('make this a modern button', {
